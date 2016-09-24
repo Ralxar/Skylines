@@ -1,0 +1,328 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+  en:
+      lang:
+        en: "English"
+        es: "Spanish"
+      FullscreenMenu_html: '<li data-rel="#header">
+                                  <span class="nav-label">Home</span>
+                                </li>
+                                <li data-rel="#about-us">
+                                  <span class="nav-label">About Us</span>
+                                </li>
+                                <li data-rel="#why-choose-us">
+                                  <span class="nav-label">Why Choose Us</span>
+                                </li>
+                                <li data-rel="#our-team">
+                                  <span class="nav-label">Our Team</span>
+                                </li>
+                                <li data-rel="#testimonial">
+                                  <span class="nav-label">Testimonial</span>
+                                </li>
+                                <li data-rel="#portfolio">
+                                  <span class="nav-label">Portfolio</span>
+                                </li>
+                                <li data-rel="#send-message">
+                                  <span class="nav-label">Contact Us</span>
+                                </li>'
+      title_html: '<p class="light-text">Like What You See? We are Just Getting Started</p>'
+      upbotton: 'View Our Works'
+      about: "About"
+      us: "US"
+      aboutUsText_html: ' Skylines, A <strong class="bold-text"> Publicity Agency</strong> that help our clients expand their business . '
+      skylineText: 'Was born in 2015 and since then we work on different publicity areas,
+        supply our clients needs. Keeping our creativity, honesty and disposition that distinguish us.'
+      ourVision: 'Our Vision'
+      ourVisionText:
+        title: 'We are the  Skyline ; and we want to arrive to every place in the world, making a family with our clients:'
+        ourVisionTextContinue: 'THE SKYLINES FAMILY'
+      Politicas:
+          politicaPrivacidad:
+            name_html: '<strong>Privacy politics</strong>'
+            content: '* Our agency protect our client’s identity and their projects.'
+          politicaSeguridad:
+            name_html: '<strong>Security politics </strong>'
+            content_html: '* Our agency count with legal advice.
+                            <br>
+                          * We don’t take work or material pornographic, politic or religious.'
+          politicaDescuento:
+            name_html: '<strong>Discount politics </strong>'
+            content_html: '* If you consume a full packet , receive a 10% of discount.
+                            <br>
+                           * If you recommend us another clients , you receive a discount or benefit of our services .'
+      Package1:
+        name: 'We offer some Publicity Package: “Digital World”'
+        contain_html: '<p class="parraferright"> * Web Development and Administration
+                         <br>
+                         * Host and Domain Management
+                         <br>
+                         * Photo and Video
+                         <br>
+                         * Design and Print Presentation Cards and Logotypes.
+                         <br>
+                         * Network Profiles
+                       </p>'
+      Package2:
+        name: " We offer some Publicity Package: “Digital Marketing” "
+        contain_html: '<p class="parraferright"> * Publicity campaings:(creation and control)
+                          <br>
+                          * Internet publicity (Social Networks).
+                          <br>
+                          * Poster, Flying, Printed T-shirts, Cups.
+                          <br>
+                          * Broschures, Turnkeys, losas.
+                          <br>
+                          * Flags and others accessories.
+                          <br>
+                          * Gigantografia
+                       </p>'
+
+      whyChooseUs:
+        why: 'why'
+        Choose: 'Choose'
+        Us: 'Us'
+
+      services:
+        service1:
+          name: 'Development and Web design'
+          comment_html: '<p>We develop and design your personal or business Web, attending your ideas.</p>'
+        service2:
+          name: 'We love our clients'
+          comment_html: '<p>You are our reason, our priority and we are hope that you feel gratify with our work.</p>'
+        service3:
+          name: 'Marketing and Publicity.'
+          comment_html: '<p>We raise your business and show it to the World with swiftness and creativity.</p>'
+        service4:
+          name: 'Photo and Video'
+          comment_html: '<p>A quality Photo and Video, creativity and excellent technique.</p>'
+        service5:
+          name: 'We like the coffee'
+          comment_html: '<p>Is essential a cup of coffee when we work.</p>'
+        service6:
+          name: 'We are PROFESIONALS '
+          comment_html: '<p>We are a professional team. We love our work.</p>'
+
+      OurSkill:
+        OurSkillsAre_html: '<h2>
+                             Our
+                             <strong class="bold-text">Skills</strong>
+                             <span class="light-text main-color">Are</span>
+                       </h2>'
+        skills_html: '<li>
+                                      <p>Web Developer</p>
+                                      <div class="wrapper"><span data-width="90"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Digital Marketing</p>
+                                      <div class="wrapper"><span data-width="80"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Creativity</p>
+                                      <div class="wrapper"><span data-width="85"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Photografy</p>
+                                      <div class="wrapper"><span data-width="65"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Confiability</p>
+                                      <div class="wrapper"><span data-width="100"></span></div>
+                                    </li>'
+
+      OurSkill2:
+        service1:
+          name: 'Its a pleasure'
+          comment_html: '<p>We have a meeting with our client and talk about the proyect and their ideas.</p>'
+        service2:
+          name: 'We are agree'
+          comment_html: '<p>We get the idea and celebrate with a cup of coffee.</p>'
+        service3:
+          name: 'Go to work'
+          comment_html: '<p>We begging to work with swiftness and quality.</p>'
+
+      OurTeam:
+        Our: 'Our'
+        Awesome: 'Awesome'
+        Team: 'Team'
+        
+
+      Members:
+        yamile:
+          ability_html: '<p>Publisher Marketing</p>'
+          more_html: '<strong>Learn More</strong>'
+          ability: 'Publisher Marketing'
+          HigherEducation:
+            name: 'Higher Education:'
+            comment_html: '<p>
+                            * Communication University, La Havana, Cuba.
+                              <br>
+                            *  Hotel Accommodation Specialist
+                              <br>
+                            * Tourism School, Havana, Cuba
+                              <br>
+                            *  Marketing, Merchandising, and Client Psychology,
+                              <br>
+                            *  Tourism School, Havana, Cuba
+                          </p>'
+          language_html:
+             name: 'language:'
+             comment_html: '<p>
+                               Spanish: (native)
+                               <br>
+                               English: Superior
+                           </p>'
+          WorkExperience:
+            name: 'Work Experience:'
+            comment_html: '<p>
+                              * Coral Containers Lines, Shipping Company Credits and sales specialist.
+                                <br>
+                              * Sales Specialist, Comodoro Hotel
+                                <br>
+                              * Sales Specialist, Meliá Cohíba Hotel
+                          </p>'
+
+        Yohan:
+          ability_html: '<p>Photographer</p>'
+          more_html: '<strong>Learn More</strong>'
+          ability: 'Photographer'
+          HigherEducation:
+              name: 'Higher Education:'
+              comment_html: '<p>Havana Psychology University</p>'
+          language_html:
+              name: 'language:'
+              comment_html: '<p>
+                                       Spanish: (native)
+                                       <br>
+                                       English: Superior
+                            </p>'
+          WorkExperience:
+              name: 'Work Experience:'
+              comment_html: '<p>* 2011 -Cuban Radio and Televition institute
+                                  <br>
+                                * Romantic Novels, Series, Miniseries, Regular Programs, Musical Programs, Videos Clips, Sports programs.
+                                  <br>
+                                * Televition Festival National Award, Best Cultural News Program.
+                                  <br>
+                                * 2015- Skylines Agency Image, Photographer and Designer.
+                            </p>'
+
+        Raudel:
+          ability_html: '<p>Web Development</p>'
+          more_html: '<strong>Learn More</strong>'
+          ability: 'Publisher Marketing'
+          HigherEducation:
+            name: 'Higher Education:'
+            comment_html: '<p>
+                              Havana University, Computer Science Engineering
+                          </p>'
+          language_html:
+            name: 'language:'
+            comment_html: '<p>
+                                       Spanish:(native)
+                                       <br>
+                                       English: Superior
+                          </p>'
+          WorkExperience:
+            name: 'Work Experience:'
+            comment_html: '<p>
+                                    * 2005-2006, Presidente Hotel , Havana, Cuba
+                                      <br>
+                                    * 2006-2013 : Havana University, Computer Science Engineering
+                                      <br>
+                                    * IT, Computer assistance technique
+                                      <br>
+                                    * Net administration
+                                      <br>
+                                    * Net Maintenance
+                                      <br>
+                                    * Collaborator for the first 3D movies in Cuba
+                                      <br>
+                                    * 2015- Web design and development , Skylines Agency
+                          </p>'
+
+        Carlos:
+          ability_html: '<p>Web Development</p>'
+          more_html: '<strong>Learn More</strong>'
+          ability: 'Web Development'
+          HigherEducation:
+              name: 'Higher Education:'
+              comment_html: '<p>
+                                 Havana University, Computer Science Engineering
+                            </p>'
+          language_html:
+              name: 'language:'
+              comment_html: '<p>
+                                       Spanish: Natal
+                                       <br>
+                                       English: Superior
+                            </p>'
+          WorkExperience:
+              name: 'Work Experience:'
+              comment_html: '<p> * La Havana, Cuba, Economy University.
+                                    <br>
+                                 * Web site, Development and administration and Computer assistance technique
+                                    <br>
+                                 * WI- FI Red administration
+                                    <br>
+                                 * Net Maintenance
+                                    </p>'
+
+      Testimonial:
+            h2_html: '<h2 class="margin-bottom-medium">What Our <strong class="bold-text">Customer</strong> Said</h2>'
+
+      Promote_html: '<p class="light-text">Hire us! We make you smile :)</p>'
+
+      Portfolio:
+        name_html: '<div class="row margin-bottom-medium wow fadeInUp">
+                          <h2>
+                            Our
+                            <strong class="main-color bold-text">Works :</strong>
+                          </h2>
+                          <div class="line main-bg"></div>
+
+                          <div class="col-md-10 col-md-offset-1">
+                            <div class="subtitle">Check out some of our latest and greatest projects.</div>
+                          </div>'
+
+        PortfolioFilters_html: '   <li><a href="#" data-filter="*" class="active"><i class="icon-grid"></i></a></li>
+                                    <li><a href="#" data-filter=".print">Marketing & Publicity </a></li>
+                                    <li><a href="#" data-filter=".icon">Icon Design</a></li>
+                                    <li><a href="#" data-filter=".photography">photography</a></li>
+                                    <li><a href="#" data-filter=".web-design">Web Developer</a></li>'
+        Portfolioitem_html: '<h2 class="margin-bottom-small">
+                                            Our
+                                            <strong class="white-color bold-text">work</strong>
+                                          </h2>
+                                          <div class="button">View Project</div>'
+
+      Wearehiring:
+        WeAreHiringName_html: '<h2>Havana Best View <span class="main-color bold-text">Our online service for rent in Cuba</span></h2>'
+        WeAreHiringComment_html: '<p class="margin-top-medium">Select your destiny to any city or touristic polo of Cuba.
+                                            We can help you to organize and plan your trip.
+                                            We offer to you the best privace house for your accommodation and other services that will make your visit, unforgettable.</p>'
+      SendMessage_html: '<p class="light-text"><span class="bold-text"></span> Contact us  <span class="bold-text"> On </span ></p>'
+
+      footer:
+        footerName_html: '<p class="margin-bottom-medium">Contact Us </p>'
+        footerCopyRight_html: '<p >
+                                    <strong>&copy; Copyright 2016 Skylines Agency - All Rights reserved</strong>
+                              </p>'

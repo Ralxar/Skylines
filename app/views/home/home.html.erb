@@ -1,0 +1,841 @@
+<!-- =========================
+      Header
+   ============================== -->
+
+
+<header id="header" class="about-us">
+
+
+    <div class="container">
+
+
+     <br>
+      <br>
+      <div id="content">
+        <div class="flagEngland">
+          <%= link_to locale: 'en' do %>
+              <%= image_tag 'flags/EnglandFlag.jpg', class: 'img-responsive'%>
+          <% end %>
+        </div>
+        <div class="FlagSpain">
+          <%= link_to locale: 'es' do %>
+              <%= image_tag 'flags/SpainFlag.jpg.jpg', class: 'img-responsive' %>
+          <% end %>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--center>
+      <h1 class="light mab-none">This is <strong class="bold-text">Skylines</strong></h1>
+      <h1 class="light margin-bottom-medium mat-none">And We Are <strong class="bold-text">Awesome</strong></h1>
+      <p class="light margin-bottom-medium">Stop blending in & start leaving your mark on the web.</p>
+      </center-->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+
+
+  </div>
+</header> <!-- *** end Header *** -->
+
+
+<!-- =========================
+   Call to action
+============================== -->
+<section id="call-to-action" class="call-to-action main-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 wow slideInLeft animated">
+        <%= t('title_html') %>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 button-container wow slideInRight animated">
+        <a href="#portfolio" class="button light internal-link pull-left hvr-grow" data-rel="#portfolio"><%= t('upbotton') %></a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</section> <!-- *** end call-to-action *** -->
+
+
+<!-- =========================
+   About Us
+============================== -->
+<section id="about-us" class="about-us">
+  <div class="overlay">
+    <div class="container padding-top-large">
+      <h2>
+        <strong class="bold-text"> <%= t('about') %> </strong>
+        <span class="light-text main-color"><%= t('us') %> </span>
+      </h2>
+      <div class="line main-bg"></div>
+      <div class="row margin-bottom-medium">
+        <div class="col-md-7">
+          <div class="jumbo-text light-text margin-top-medium wow slideInLeft" data-wow-duration="2s">
+            <%= t('aboutUsText_html') %>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <%= image_tag 'about-side-side.png', class: 'center-block img-responsive' %>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <p class="margin-bottom-medium wow slideInUp"><h3><strong class="bold-text">Skylines</strong></h3>
+        <%= t('skylineText') %>
+        <br>
+        <br>
+        <h3><strong class="bold-text"><%= t('ourVision') %></strong></h3>
+          <%= t('ourVisionText.title') %> <strong class="bold-text"> <%= t('ourVisionText.ourVisionTextContinue') %> </strong>
+
+
+      <div class="row margin-top-large">
+        <div class="col-md-8">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+            <!-- =========================
+               Collapsible Panel 1
+            ============================== -->
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <div class="panel-title">
+                  <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="state"><strong>-</strong></span>
+                    <%= t('Politicas.politicaPrivacidad.name_html') %>
+                  </a>
+                </div>
+              </div> <!-- *** end panel-heading *** -->
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <%= t('Politicas.politicaPrivacidad.content') %>
+                </div>
+              </div> <!-- *** end collapsed item *** -->
+            </div> <!-- *** end panel *** -->
+
+            <!-- =========================
+              Collapsible Panel 2
+            ============================== -->
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <div class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span class="state"><strong>+</strong></span>
+                    <%= t('Politicas.politicaSeguridad.name_html') %>
+                  </a>
+                </div>
+              </div> <!-- *** end panel-heading *** -->
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <%= t('Politicas.politicaSeguridad.content_html') %>
+                </div>
+              </div> <!-- *** end collapsed item *** -->
+            </div> <!-- *** end panel *** -->
+
+            <!-- =========================
+              Collapsible Panel 3
+            ============================== -->
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <div class="panel-title">
+                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <span class="state"><strong>+</strong></span>
+                    <%= t('Politicas.politicaDescuento.name_html') %>
+                  </a>
+                </div>
+              </div> <!-- *** end panel-heading *** -->
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <%= t('Politicas.politicaDescuento.content_html') %>
+                </div>
+              </div> <!-- *** end collapsed item *** -->
+            </div> <!-- *** end panel *** -->
+          </div> <!-- *** end panel-group *** -->
+        </div> <!-- *** end col-md-8 *** -->
+        <div class="col-md-4">
+          <%= image_tag 'case-studdy-people1.png', class: 'img-responsive', alt: 'traje' %>
+
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- *** end About Us *** -->
+
+
+<!-- =========================
+   Case Study
+============================== -->
+<section id="case-study" class="case-study">
+  <div class="row mar-none mat-none">
+
+    <!-- *****  Case Study Left ***** -->
+    <div class="col-md-6 case-study-left wow slideInLeft">
+      <div class="overlay padding-large text-right">
+        <div class="description">
+          <h3 class="margin-bottom-small light-text"> <%= t('Package1.name') %> </h3>
+          <strong><%= t('Package1.contain_html') %> </strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- *****  Case Study Right ***** -->
+    <div class="col-md-6 case-study-right wow slideInRight">
+      <div class="overlay padding-large">
+        <div class="description">
+          <h3 class="margin-bottom-small light-text"><%= t('Package2.name') %></h3>
+          <strong><%= t('Package2.contain_html') %></strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- *** end Case Study *** -->
+
+
+<!-- =========================
+   Why Coose Us
+============================== -->
+<section id="why-choose-us" class="why-choose-us">
+  <div class="container margin-top-large">
+    <h2>
+      <%= t('whyChooseUs.why') %>
+      <strong class="bold-text"><%= t('whyChooseUs.Choose') %></strong>
+      <span class="light-text main-color"><%= t('whyChooseUs.Us') %></span>
+    </h2>
+    <div class="line main-bg margin-bottom-large"></div>
+
+    <div class="row text-center">
+
+      <!-- *****  Service Single ***** -->
+      <div class="col-md-4">
+        <div class="service wow slideInLeft">
+          <div class="icon"><i class="icon-mobile"></i></div>
+          <h4><strong> <%= t('services.service4.name') %> </strong> </h4>
+          <%= t('services.service4.comment_html') %>
+        </div>
+      </div>
+      <!-- *****  Service Single ***** -->
+      <div class="col-md-4">
+        <div class="service wow fadeInUp">
+          <div class="icon"><i class="icon-check"></i></div>
+          <h4><strong><%= t('services.service5.name') %></strong> </h4>
+          <%= t('services.service5.comment_html') %>
+        </div>
+        </div>
+            <!-- *****  Service Single ***** -->
+      <div class="col-md-4">
+        <div class="service wow slideInRight">
+          <div class="icon"><i class="icon-office"></i></div>
+          <h4><strong> <%= t('services.service3.name') %> </strong></h4>
+          <%= t('services.service3.comment_html') %>
+        </div>
+      </div>
+      <!-- *****  Service Single ***** -->
+      <div class="col-md-4">
+        <div class="service wow slideInLeft">
+          <div class="icon"><i class="icon-idea"></i></div>
+          <h4> <strong> <%= t('services.service1.name') %> </strong></h4>
+          <%= t('services.service1.comment_html') %>
+        </div>
+
+      </div>
+      <!-- *****  Service Single ***** -->
+      <div class="col-md-4">
+        <div class="service wow fadeInUp">
+          <div class="icon"><i class="icon-heart"></i></div>
+          <h4><strong>  <%= t('services.service2.name') %> </strong></h4>
+          <%= t('services.service2.comment_html') %>
+        </div>
+      </div>
+      <!-- *****  Service Single ***** -->
+      <div class="col-md-4">
+        <div class="service wow slideInRight">
+          <div class="icon"><i class="icon-web-browser"></i></div>
+          <h4><strong> <%= t('services.service6.name') %> </strong> </h4>
+          <%= t('services.service6.comment_html') %>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+    </div> <!-- *** end row *** -->
+  </div> <!-- *** end container *** -->
+</section> <!-- *** end Why Choose Us *** -->
+
+
+<!-- =========================
+   Our Skills
+============================== -->
+<section id="our-skills" class="our-skills">
+  <div class="container padding-top-large">
+    <%= t('OurSkill.OurSkillsAre_html') %>
+    <div class="line main-bg margin-bottom-medium"></div>
+    <div class="row">
+      <div class="col-md-7">
+        <ul class="skill-bar">
+          <%= t('OurSkill.skills_html') %>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-5" sytle="border-top 20px">
+          <br>
+          <br>
+          <br>
+          <br>
+          <%= image_tag 'skill-bg.jpg', class: 'center-block img-responsive', alt: 'Our Skills are excellent' %>
+        </div>
+       </div>
+      <div class="clearfix"></div>
+    </div> <!-- *** end row *** -->
+  </div> <!-- *** end container *** -->
+</section> <!-- *** end Our Skills *** -->
+
+
+<!-- =========================
+   Processes
+============================== -->
+<section id="processes" class="processes">
+  <div class="overlay">
+    <div class="container padding-large">
+      <div class="row">
+        <div class="col-md-5 text-center process-interactive wow fadeInLeft" data-wow-duration="2s">
+          <div class="process-bar main-bg discussion">
+            <i class="icon-discussion"></i>
+          </div>
+          <div class="process-bar right check">
+            <i class="icon-check"></i>
+          </div>
+          <div class="lines"></div>
+          <div class="process-bar main-bg idea">
+            <i class="icon-idea"></i>
+          </div>
+          <div class="process-bar right office">
+            <i class="icon-office"></i>
+          </div>
+        </div> <!-- *** end col-md-5 *** -->
+        <div class="col-md-7">
+
+          <!-- *****  Single feature ***** -->
+          <div class="feature wow fadeInUp" data-wow-delay=".2s">
+            <div class="icon-container pull-left">
+              <span class="icon-discussion"></span>
+            </div>
+            <div class="description text-left pull-right">
+              <h4><strong> <%= t('OurSkill2.service1.name') %> </strong></h4>
+              <%= t('OurSkill2.service1.comment_html') %>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <!-- *****  Single feature ***** -->
+          <div class="feature wow fadeInUp" data-wow-delay=".3s">
+            <div class="icon-container pull-left">
+              <span class="icon-idea "></span>
+            </div>
+            <div class="description text-left pull-right">
+              <h4><strong><%= t('OurSkill2.service2.name') %></strong></h4>
+              <%= t('OurSkill2.service2.comment_html') %>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+
+          <!-- *****  Single feature ***** -->
+          <div class="feature wow fadeInUp" data-wow-delay=".4s">
+            <div class="icon-container pull-left">
+              <span class="icon-office "></span>
+            </div>
+            <div class="description text-left pull-right">
+              <h4><strong> <%= t('OurSkill2.service3.name') %> </strong></h4>
+              <%= t('OurSkill2.service3.comment_html') %>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div> <!-- *** end col-md-7 *** -->
+      </div>
+    </div>
+  </div>
+</section> <!-- *** end Processes *** -->
+
+
+<!-- =========================
+   Our Team
+============================== -->
+<section id="our-team" class="our-team">
+  <div class="container padding-top-large">
+    <h2 class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay=".5s">
+      <%= t('OurTeam.Our') %>
+      <strong class="bold-text"><%= t('OurTeam.Awesome') %></strong>
+      <span class="light-text main-color"><%= t('OurTeam.Team') %></span>
+    </h2>
+    <div class="line main-bg margin-bottom-medium"></div>
+
+    <div class="row">
+      <!-- ***** Team member 1 section ***** -->
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large">
+        <!-- ***** Team member-1 ***** -->
+
+        <div class="team-member center-block wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+          <%= image_tag 'team/team-member-1.jpg', class: 'img-responsive', alt: 'Jack Smith' %>
+          <div class="team-overlay text-center">
+            <div class="info">
+              <h3><strong>Yamile Portales</strong></h3>
+              <%= t('Members.yamile.ability_html') %>
+            </div>
+            <div class="learn-more" data-toggle="modal" data-target="#team-member-1">
+              <%= t('Members.yamile.more_html') %>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** end Team member-1 *** -->
+        <!-- Team Member-1 Modal -->
+        <div class="modal fade contact-form" id="team-member-1" tabindex="-1" role="dialog" aria-labelledby="team-member-1" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-body member-info">
+                <div class="row">
+                  <div class="col-md-5 col-sm-5">
+                    <figure>
+                      <%= image_tag 'team/big/team-member-1.jpg', alt: 'Yamile' %>
+
+                    </figure>
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <div class="description">
+                      <h3><strong class="bold-text">Yamile Portales</strong></h3>
+                      <div class="light-text"><%= t('Members.yamile.ability') %></div>
+                      <div class="about margin-top-medium">
+                        <h3><strong class="bold-text"><%= t('Members.yamile.HigherEducation.name') %></strong></h3>
+                        <%= t('Members.yamile.HigherEducation.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.yamile.language_html.name') %></strong></h3>
+                        <%= t('Members.yamile.language_html.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.yamile.WorkExperience.name') %></strong></h3>
+                        <%= t('Members.yamile.WorkExperience.comment_html') %>
+                      </div>
+                      <div class="member-skills">
+                        <div id="skill-1" class="member-skill" data-dimension="100" data-text="Word" data-width="10" data-fontsize="16" data-percent="35" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-2" class="member-skill" data-dimension="100" data-text="Excel" data-width="10" data-fontsize="16" data-percent="70" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-3" class="member-skill" data-dimension="100" data-text="P.Point" data-width="10" data-fontsize="16" data-percent="80" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-4" class="member-skill" data-dimension="100" data-text="Windows" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                      </div>
+                    </div> <!-- *** end description *** -->
+                  </div> <!-- *** end col-md-7 *** -->
+                </div> <!-- *** end row *** -->
+              </div> <!-- *** end modal-body *** -->
+            </div> <!-- *** end modal-content *** -->
+          </div> <!-- *** end modal-dialog *** -->
+        </div> <!-- *** end Contact Form modal *** -->
+      </div> <!-- *** end Team member 1 section *** -->
+      <!-- ***** Team member 2 section ***** -->
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large">
+        <!-- ***** Team member-2 ***** -->
+        <div class="team-member center-block wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+          <%= image_tag 'team/team-member-2.jpg', class: 'img-responsive', alt: 'yohan' %>
+          <div class="team-overlay text-center">
+            <div class="info">
+              <h3><strong>Yohan Alea</strong></h3>
+              <%= t('Members.Yohan.ability_html') %>
+            </div>
+            <div class="learn-more" data-toggle="modal" data-target="#team-member-2">
+              <%= t('Members.Yohan.more_html') %>
+            </div>
+          </div>
+        </div> <!-- *** end Team member-1 *** -->
+        <!-- Team Member-2 Modal -->
+        <div class="modal fade contact-form" id="team-member-2" tabindex="-1" role="dialog" aria-labelledby="team-member-2" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-body member-info">
+                <div class="row">
+                  <div class="col-md-5 col-sm-5">
+                    <figure>
+                      <%= image_tag 'team/big/team-member-2.jpg', alt: 'Yohan' %>
+                    </figure>
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <div class="description">
+                      <h3><strong class="bold-text">Yohan Alea</strong></h3>
+                      <div class="light-text"><%= t('Members.Yohan.ability') %></div>
+                      <div class="about margin-top-medium">
+                        <h3><strong class="bold-text"><%= t('Members.Yohan.HigherEducation.name') %></strong></h3>
+                        <%= t('Members.Yohan.HigherEducation.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.Yohan.language_html.name') %></strong></h3>
+                        <%= t('Members.Yohan.language_html.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.Yohan.WorkExperience.name') %> </strong></h3>
+                        <%= t('Members.Yohan.WorkExperience.comment_html') %>
+
+                      </div>
+                      <div class="member-skills">
+                        <div id="skill-5" class="member-skill" data-dimension="100" data-text="Adobe Ps" data-width="10" data-fontsize="16" data-percent="70" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-6" class="member-skill" data-dimension="100" data-text="Adobe Pr" data-width="10" data-fontsize="16" data-percent="80" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-7" class="member-skill" data-dimension="100" data-text="Adobe AE" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-8" class="member-skill" data-dimension="100" data-text="DaVinci" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                      </div>
+                    </div> <!-- *** end description *** -->
+                  </div> <!-- *** end col-md-7 *** -->
+                </div> <!-- *** end row *** -->
+              </div> <!-- *** end modal-body *** -->
+            </div> <!-- *** end modal-content *** -->
+          </div> <!-- *** end modal-dialog *** -->
+        </div> <!-- *** end Contact Form modal *** -->
+      </div> <!-- *** end Team member 2 section *** -->
+      <!-- ***** Team member 3 section ***** -->
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large">
+        <!-- ***** Team member-1 ***** -->
+        <div class="team-member center-block wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+
+          <%= image_tag 'team/team-member-3.jpg', class: 'img-responsive', alt: 'Raudel Araguez'%>
+          <div class="team-overlay text-center">
+            <div class="info">
+              <h3><strong>Raudel Araguez</strong></h3>
+              <%= t('Members.Raudel.ability_html') %>
+            </div>
+            <div class="learn-more" data-toggle="modal" data-target="#team-member-3">
+              <%= t('Members.Raudel.more_html') %>
+            </div>
+          </div>
+        </div> <!-- *** end Team member-3 *** -->
+        <!-- Team Member-3 Modal -->
+        <div class="modal fade contact-form" id="team-member-3" tabindex="-1" role="dialog" aria-labelledby="team-member-3" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-body member-info">
+                <div class="row">
+                  <div class="col-md-5 col-sm-5">
+                    <figure>
+                      <%= image_tag 'team/big/team-member-3.jpg', alt: 'Raudel Araguez' %>
+                    </figure>
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <div class="description">
+                      <h3><strong class="bold-text">Raudel Araguez</strong></h3>
+                      <div class="light-text"><%= t('Members.Raudel.ability') %></div>
+                      <div class="about margin-top-medium">
+                        <h3><strong class="bold-text"><%= t('Members.Raudel.HigherEducation.name') %></strong></h3>
+                        <%= t('Members.Raudel.HigherEducation.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.Raudel.language_html.name') %></strong></h3>
+                        <%= t('Members.Raudel.language_html.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.Raudel.WorkExperience.name') %> </strong></h3>
+                        <%= t('Members.Raudel.WorkExperience.comment_html') %>
+
+                      </div>
+                      <div class="member-skills">
+                        <div id="skill-9" class="member-skill" data-dimension="100" data-text="Rails" data-width="10" data-fontsize="16" data-percent="35" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-10" class="member-skill" data-dimension="100" data-text="javaScript" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-11" class="member-skill" data-dimension="100" data-text="Git" data-width="10" data-fontsize="16" data-percent="70" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-12" class="member-skill" data-dimension="100" data-text="P.Tracer" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                      </div>
+                    </div> <!-- *** end description *** -->
+                  </div> <!-- *** end col-md-7 *** -->
+                </div> <!-- *** end row *** -->
+              </div> <!-- *** end modal-body *** -->
+            </div> <!-- *** end modal-content *** -->
+          </div> <!-- *** end modal-dialog *** -->
+        </div> <!-- *** end Contact Form modal *** -->
+      </div> <!-- *** end Team member 3 section *** -->
+      <!-- ***** Team member 4 section ***** -->
+      <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom-large">
+        <!-- ***** Team member-1 ***** -->
+        <div class="team-member center-block wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+          <%= image_tag 'team/team-member-4.jpg', class: 'img-responsive', alt: 'Carlos R. Hevia'%>
+          <div class="team-overlay text-center">
+            <div class="info">
+              <h3><strong>Carlos R. Hevia</strong></h3>
+              <%= t('Members.Carlos.ability_html') %>
+            </div>
+            <div class="learn-more" data-toggle="modal" data-target="#team-member-4">
+              <%= t('Members.Carlos.more_html') %>
+            </div>
+          </div>
+        </div> <!-- *** end Team member-4 *** -->
+        <!-- Team Member-4 Modal -->
+        <div class="modal fade contact-form" id="team-member-4" tabindex="-1" role="dialog" aria-labelledby="team-member-4" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="modal-body member-info">
+                <div class="row">
+                  <div class="col-md-5 col-sm-5">
+                    <figure>
+                      <%= image_tag 'team/big/team-member-4.jpg', alt: 'Carlos' %>
+                    </figure>
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <div class="description">
+                      <h3><strong class="bold-text">Carlos R. Hevia</strong></h3>
+                      <div class="light-text"><%= t('Members.Carlos.ability') %></div>
+                      <div class="about margin-top-medium">
+                        <h3><strong class="bold-text"><%= t('Members.Carlos.HigherEducation.name') %></strong></h3>
+                        <%= t('Members.Carlos.HigherEducation.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.Carlos.language_html.name') %></strong></h3>
+                        <%= t('Members.Carlos.language_html.comment_html') %>
+                        <br>
+                        <h3><strong class="bold-text"><%= t('Members.Carlos.WorkExperience.name') %> </strong></h3>
+                        <%= t('Members.Carlos.WorkExperience.comment_html') %>
+
+                      </div>
+                      <div class="member-skills">
+                        <div id="skill-13" class="member-skill" data-dimension="100" data-text="Rails" data-width="10" data-fontsize="16" data-percent="85" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-14" class="member-skill" data-dimension="100" data-text="javaScript" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-15" class="member-skill" data-dimension="100" data-text="Git" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                        <div id="skill-16" class="member-skill" data-dimension="100" data-text="JQuery" data-width="10" data-fontsize="16" data-percent="60" data-fgcolor="#0196a7" data-bgcolor="#eee"></div>
+                      </div>
+                    </div> <!-- *** end description *** -->
+                  </div> <!-- *** end col-md-7 *** -->
+                </div> <!-- *** end row *** -->
+              </div> <!-- *** end modal-body *** -->
+            </div> <!-- *** end modal-content *** -->
+          </div> <!-- *** end modal-dialog *** -->
+        </div> <!-- *** end Contact Form modal *** -->
+      </div> <!-- *** end Team member 4 section *** -->
+    </div>
+  </div>
+</section> <!-- *** end Our Team *** -->
+
+
+<!-- =========================
+   Testimonial
+============================== -->
+<section id="testimonial" class="testimonial padding-large white-color text-center">
+  <div class="container">
+    <div class="row">
+      <%= t('Testimonial.h2_html') %>
+      <div class="col-md-10 col-md-offset-1">
+
+        <!-- *****  Carousel start ***** -->
+        <div id="testimonial-carousel" class="owl-carousel owl-theme testimonial-carousel">
+
+          <!-- =========================
+             Single Testimonial item
+          ============================== -->
+           <% @clients.each do |c| %>
+              <% image = c.image.url(:medium)%>
+              <%= render 'layouts/client_form', :client => c, :image => image %>
+           <% end  %>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- *** end Testimonial *** -->
+
+
+<!-- =========================
+   Promote
+============================== -->
+<section id="promote" class="promote main-bg white-color">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-4 text-center">
+        <%= t('Promote_html') %>
+      </div>
+      <!--div class="col-lg-6 col-lg-offset-1 col-md-7 col-sm-8 button-container">
+        <a href="#" class="button deep hvr-grow">Request a Quote</a>
+        <span class="margin-right-small margin-left-small">or</span>
+        <a href="#" class="button light hvr-grow">Hire Us</a>
+      </div-->
+    </div>
+  </div>
+</section> <!-- *** end promote *** -->
+
+
+<!-- =========================
+   Portfolio
+============================== -->
+<section id="portfolio" class="portfolio padding-large text-center">
+  <div class="container margin-bottom-medium">
+    <div class="row margin-bottom-medium wow fadeInUp">
+      <%= t('Portfolio.name_html') %>
+    </div> <!-- *** end row *** -->
+
+    <!-- *****  Portfolio Filters ***** -->
+    <div class="filters">
+      <ul class="wow lightSpeedIn">
+        <%= t('Portfolio.PortfolioFilters_html') %>
+      </ul>
+    </div> <!-- *** end filters *** -->
+  </div> <!-- *** end container *** -->
+
+  <!-- *****  Portfolio  wrapper ***** -->
+  <div class="portfolio-wrapper margin-bottom-medium">
+
+    <!-- =========================
+       Portfolio item
+    ============================== -->
+    <div class="portfolio-item web-design">
+      <div class="portfolio">
+        <a href="<%= image_url 'portfolio/portfolio-6.jpg' %>" data-lightbox-gallery="portfolio">
+          <%= image_tag 'portfolio/portfolio-6.jpg', alt: 'Portfolio 6' %><!-- END PORTFOLIO IMAGE -->
+          <div class="portfolio-overlay hvr-rectangle-out">
+            <%= t('Portfolio.Portfolioitem_html') %>
+          </div><!-- END PORTFOLIO OVERLAY -->
+        </a>
+      </div>
+    </div> <!-- *** end  portfolio-item *** -->
+
+    <!-- =========================
+       Portfolio item
+    ============================== -->
+    <div class="portfolio-item web-design">
+      <div class="portfolio">
+        <a href="<%= image_url 'portfolio/portfolio-7.jpg' %>" data-lightbox-gallery="portfolio">
+          <%= image_tag 'portfolio/portfolio-7.jpg', alt: 'Portfolio 7' %><!-- END PORTFOLIO IMAGE -->
+          <div class="portfolio-overlay hvr-rectangle-out">
+            <%= t('Portfolio.Portfolioitem_html') %>
+          </div><!-- END PORTFOLIO OVERLAY -->
+        </a>
+      </div>
+    </div> <!-- *** end  portfolio-item *** -->
+
+    <!-- =========================
+       Portfolio item
+    ============================== -->
+
+  </div> <!-- *** end  portfolio-wrapper *** -->
+
+</section> <!-- *** end Portfolio *** -->
+
+
+<!-- =========================
+   We are  hiring
+============================== -->
+<section id="we-are-hiring" class="we-are-hiring">
+  <div class="container padding-large">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 wow fadeInLeft">
+        <div class="row">
+          <div class="col-md-6">
+            <%= t('Wearehiring.WeAreHiringName_html') %>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <%= t('Wearehiring.WeAreHiringComment_html') %>
+      </div>
+
+      <div class="col-md-5 col-sm-6">
+        <section id="twitter" class="twitter">
+          <div class="overlay">
+            <div class="container padding-large text-center">
+              <div class="row">
+                <div class="col-md-5 col-sm-6">
+                  <div class="icon hvr-grow">
+                    <i class="fa fa-home"></i>
+                  </div>
+                  <div class="tweet-text" id="tweets">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section> <!-- *** end We Are Hiring *** -->
+
+
+
+
+<!-- =========================
+   Send Message
+============================== -->
+<section id="send-message" class="send-message main-bg white-color text-center">
+  <div class="send-icon" data-toggle="modal" data-target="#contact-form">
+    <i class="fa fa-search-plus"></i>
+  </div>
+  <%= t('SendMessage_html') %>
+  <!-- Contact Form Modal -->
+  <div class="modal fade contact-form" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="contact-form" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+        <div class="modal-body">
+
+          <!-- *****  Contact form ***** -->
+          <form class="form" id="contact-form">
+            <div class="row">
+              <!-- =========================
+                   POner contactos aki
+              ============================== -->
+
+              <footer id="footer" class="footer">
+                <%= t('footer.footerName_html') %>
+
+
+
+
+                      <!-- =========================
+                         Social icons
+                      ============================== -->
+
+                         <ul class="social margin-bottom-medium">
+                              <li class="facebook hvr-pulse"><a href="https://www.facebook.com/Skylines-371510543180612"><i class="fa fa-facebook"></i></a></li>
+                              <li class="twitter hvr-pulse"><a href="https://twitter.com/Sylines_Agency"><i class="fa fa-twitter"></i></a></li>
+
+                         </ul>
+
+
+                 <p>E-mail:<a href="mailto:Sky.ag@skylinesagency.com">Sky.ag@skylinesagency.com</a></p>
+                <p><a>+53 52686068</a></p>
+              </footer> <!-- *** end Footer *** -->
+            </div>
+          </form>
+        </div> <!-- *** end modal-body *** -->
+      </div> <!-- *** end modal-content *** -->
+    </div> <!-- *** end modal-dialog *** -->
+  </div> <!-- *** end Contact Form modal *** -->
+</section> <!-- *** end Send Message *** -->
+
+
+<!-- =========================
+   Footer
+============================== -->
+<footer id="footer" class="footer">
+  <div class="container padding-large text-center">
+        <%= t('footer.footerCopyRight_html') %>
+  </div>
+</footer> <!-- *** end Footer *** -->
+
+<!-- =========================
+   Back to top button
+============================== -->
+<div class="back-to-top" data-rel="header">
+  <i class="icon-up"></i>
+</div>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SITE TITLE -->
+  <title>Skylines</title>
+
+  <!-- =========================
+     Meta Information
+  ============================== -->
+  <meta name="description" content="Skylines Advertising Agency Website">
+  <meta name="keywords" content="Skylines, Advertising Agency, Agencia Publicitaria, Publicidad">
+  <meta name="author" content="Skylines Advertising Agency">
+
+  <!-- =========================
+     favicon and app touch icon
+  ============================== -->
+
+
+
+
+
+  <%= favicon_link_tag 'favicon.ico' %>
+
+
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+
+
+
+
+  <!-- =========================
+     Fonts, typography and icons
+  ============================== -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+
+  <!-- =========================
+     Carousel, lightbox and circle generator
+  ============================== -->
+
+
+
+
+
+  <!-- ***** Custom Stylesheet ***** -->
+
+
+  <!-- ***** Responsive fixes ***** -->
+
+
+  <!-- Header scripts -->
+  <script src="vendor/modernizr-2.8.3.min.js"></script>
+  <script src="queryloader2.min.js"></script>
+
+
+  <!-- =========================
+     Preloader
+  ============================== -->
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      "use strict";
+      new QueryLoader2(document.querySelector("body"), {
+        barColor: "#007a88",
+        backgroundColor: "#111",
+        percentage: true,
+        barHeight: 1,
+        minimumTime: 200,
+        fadeOutTime: 1000
+      });
+    });
+    var alert_color_success_background = '#007a88';
+    var alert_color_error_background = '#CF000F';
+
+  </script>
+</head>
+<body>
+  <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- =========================
+     Fullscreen menu
+  ============================== -->
+  <div class="mobilenav">
+    <ul>
+      <%= t('FullscreenMenu_html') %>
+
+    </ul>
+  </div>  <!-- *** end Full Screen Menu *** -->
+
+  <!-- *****  hamburger icon ***** -->
+  <a href="javascript:void(0)" class="menu-trigger">
+    <div class="hamburger">
+      <div class="menui top-menu"></div>
+      <div class="menui mid-menu"></div>
+      <div class="menui bottom-menu"></div>
+    </div>
+
+  </a>
+
+
+
+  <%= yield %>
+
+
+  <div class="back-to-top" data-rel="header">
+    <i class="icon-up"></i>
+  </div>
+
+  <!--script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOsiOjjoOiFBmXLU0adNjsnCKLpcDfRyI"></script-->
+
+  <%= javascript_include_tag 'application' %>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+  es:
+      lang:
+        en: "Ingles"
+        es: "Español"
+      FullscreenMenu_html: '<li data-rel="#header">
+                                  <span class="nav-label">Inicio</span>
+                                </li>
+                                <li data-rel="#about-us">
+                                  <span class="nav-label">Sobre Nosotros </span>
+                                </li>
+                                <li data-rel="#why-choose-us">
+                                  <span class="nav-label">Porque nos Escoge</span>
+                                </li>
+                                <li data-rel="#our-team">
+                                  <span class="nav-label">Nuestro Equipo</span>
+                                </li>
+                                <li data-rel="#testimonial">
+                                  <span class="nav-label">Testimonial</span>
+                                </li>
+                                <li data-rel="#portfolio">
+                                  <span class="nav-label">Nuestro Trabajo</span>
+                                </li>
+                                <li data-rel="#send-message">
+                                  <span class="nav-label">Contactenos</span>
+                                </li>'
+      title_html: '<p class="light-text">Le gusta lo que ve? A penas estamos empezando</p>'
+      upbotton: 'Nuestro Trabajo'
+      about: "Sobre"
+      us: "Nosotros"
+      aboutUsText_html: ' Skylines, una <strong class="bold-text"> Agencia de Publicidad</strong> que ayuda a sus clientes
+          a expandir sus negocios.'
+      skylineText: 'Fue Creada en el 2015 y desde entonces hemos trabajado diferentes áreas
+          de la publicidad  satisfaciendo las necesidades de nuestros clientes y manteniendo la creatividad,
+          honestidad y disposición que nos caracteriza.'
+      ourVision: 'Nuestra Vision'
+      ourVisionText:
+        title: 'Somos la línea del horizonte, pretendemos llegar a cada espacio del mundo creando una familia con todos  nuestros clientes :'
+        ourVisionTextContinue: 'La Familia SKYLINES '
+      Politicas:
+        politicaPrivacidad:
+            name_html: '<strong>Política de privacidad</strong>'
+            content: '* Nuestra agencia protege la identidad  de nuestros clientes, sus ideas y proyectos.'
+        politicaSeguridad:
+                    name_html: '<strong>Política de seguridad</strong>'
+                    content_html: '* No aceptamos trabajos que contengan material pornográfico, político o religioso.
+                                    <br>
+                                  * Nuestra agencia cuenta con asesoramiento legal y posee todos los permisos legales para su funcionamiento.'
+        politicaDescuento:
+                            name_html: '<strong>Políticas de descuentos</strong>'
+                            content_html: '* Por el consumo de un paquete completo ud recibe un descuento del 10 % del monto total del mismo.
+                                            <br>
+                                          * Si Ud. Nos recomienda a otros clientes recibe un beneficio o descuento en nuestros servicios.'
+      Package1:
+        name: 'Paquete publicitario : “Mundo Digital”'
+        contain_html: '<p class="parraferright">
+                         * Desarrollo y administración de Sitios Web
+                         <br>
+                         * Gestión para host y dominio
+                         <br>
+                         * Fotografía y videos publicitarios
+                         <br>
+                         * Diseño e impresión de Tarjetas de Presentación y Logotipos
+                         <br>
+                         * Creación de Cuentas en redes sociales
+                       </p>'
+      Package2:
+        name: ' Paquete publicitario: “Marketing Digital”'
+        contain_html: '<p class="parraferright">
+                          * Campañas publicitarias (creación y control)
+                          <br>
+                          * Publicidad en Internet (redes sociales)
+                          <br>
+                          * Cartel, Impresión de pullovers, jarras
+                          <br>
+                          * llaveros, sueltos, broschures, losas
+                          <br>
+                          * Gigantografia
+                          <br>
+                          * todo tipo de accesorios que publiciten tu negocio
+                       </p>'
+
+      whyChooseUs:
+        why: 'Porque'
+        Choose: 'Nos'
+        Us: 'Escoge'
+
+      services:
+        service1:
+          name: 'Diseño y Desarrollo  web'
+          comment_html: '<p>Diseñamos y desarrollamos su página personal o de negocio. Atentos a sus deseos e ideas</p>'
+        service2:
+          name: 'Amamos a nuestros clientes '
+          comment_html: '<p>Uds. Son nuestra razón de ser, nuestra prioridad y esperamos se sientan complacidos con nuestro trabajo</p>'
+        service3:
+          name: 'Publicidad y gestión comercial.'
+          comment_html: '<p>Elevamos su negocio o lo damos a conocer con eficiencia, creatividad y rapidez</p>'
+        service4:
+          name: 'Fotografía y Video'
+          comment_html: '<p>Realizamos sus fotos o videos publicitarios  con Creatividad, excelente técnica y calidad</p>'
+        service5:
+          name: 'Nos gusta el café '
+          comment_html: '<p>Se hace imprescindible a la hora de trabajar una rica taza de café cubano</p>'
+        service6:
+          name: 'PROFESIONALES '
+          comment_html: '<p>Somos un equipo de profesionales que aman su trabajo y a él  dedican su vida </p>'
+
+      OurSkill:
+        OurSkillsAre_html: '<h2>
+                             Nuestras
+                             <strong class="bold-text">habilidades</strong>
+                             <span class="light-text main-color">son</span>
+                       </h2>'
+        skills_html: '<li>
+                                      <p>Desarrollo Web</p>
+                                      <div class="wrapper"><span data-width="90"></span></div>
+                                    </li>
+                                    <li>
+                                      <p> Marketing Digital </p>
+                                      <div class="wrapper"><span data-width="80"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Creatividad</p>
+                                      <div class="wrapper"><span data-width="85"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Fotografia</p>
+                                      <div class="wrapper"><span data-width="65"></span></div>
+                                    </li>
+                                    <li>
+                                      <p>Confiabilidad</p>
+                                      <div class="wrapper"><span data-width="100"></span></div>
+                                    </li>'
+
+      OurSkill2:
+        service1:
+          name: 'Mucho gusto'
+          comment_html: '<p>Nuestro equipo se reúne con sus clientes para discutir el proyecto e intercambiar opiniones</p>'
+        service2:
+          name: 'Estamos de acuerdo '
+          comment_html: '<p>Se logra la idea central del proyecto y brindamos con una taza de café</p>'
+        service3:
+          name: 'Manos a la obra'
+          comment_html: '<p>Se pone en práctica la realización del proyecto con rapidez y eficacia</p>'
+
+      OurTeam:
+        Our: 'Nuestro'
+        Awesome: 'Increible'
+        Team: 'Equipo'
+        
+
+      Members:
+        yamile:
+          ability_html: '<p>Publisher Marketing</p>'
+          more_html: '<strong>Ver mas</strong>'
+          ability: 'Publisher Marketing'
+          HigherEducation:
+            name: 'Educación Superior:'
+            comment_html: '<p>
+                              Universidad de la Habana, Facultad de Comunicación. La Habana,Cuba.
+                              Nivel Medio De Alojamiento Hotelero
+                              Escuela de Hotelería y Turismo “Sergio Pérez”, La Habana Cuba
+                              Curso De Marketing, Merchandising y Psicología del cliente.
+                              Escuela hotelería y turismo.
+                          </p>'
+          language_html:
+             name: 'Idiomas:'
+             comment_html: '<p>
+                               Español: Natal
+                               <br>
+                               Ingles: Superior
+                           </p>'
+          WorkExperience:
+            name: 'Experiencia laboral:'
+            comment_html: '<p>
+                              Naviera Coral Containers Lines, Especialista en Ventas y Créditos.
+                              Hotel Comodoro, Especialista en Ventas
+                              Hotel Meliá Cohíba, Especialista en Ventas.
+                          </p>'
+
+        Yohan:
+          ability_html: '<p>Photografo</p>'
+          more_html: '<strong>Ver mas</strong>'
+          ability: 'Photografo'
+          HigherEducation:
+              name: 'Educación Superior:'
+              comment_html: '<p>Facultad De Psicología de la Habana
+                                Habilitación para camarógrafos ICRT
+                            </p>'
+          language_html:
+              name: 'Idiomas:'
+              comment_html: '<p>
+                                       Español: Natal
+                                       <br>
+                                       Ingles: Superior
+                            </p>'
+          WorkExperience:
+              name: 'Experiencia Laboral:'
+              comment_html: '<p>* 2011 - Instituto Cubano de Radio y Televisión, Camarógrafo.
+                                <br>
+                                * Telenovelas, Series, Teleplays, Documentales, Programas habituales de la televisión cubana,
+                                  Musicales, Videos Clips, Deportivos entre otros.
+                                <br>
+                                * Premio Nacional De Fotografía, Festival de Televisión, Mejor Programa Informativo Cultural
+                                <br>
+                                 * 2015- Imagen de la Agencia Skylines, Fotógrafo y Diseñador
+                            </p>'
+
+        Raudel:
+          ability_html: '<p>Desarrollador Web</p>'
+          more_html: '<strong>Ver mas</strong>'
+          ability: 'Desarrollador Web'
+          HigherEducation:
+            name: 'Educación Superior:'
+            comment_html: '<p>
+                              Tecnologico Pablo de la Torriente Brau, La Habana, Cuba. (Técnico General Informatico)
+                              Universidad de Ciencias Informaticas, La Habana, Cuba. (Ingeniero)
+                            </p>'
+          language_html:
+            name: 'Idiomas:'
+            comment_html: '<p>
+                                       Español: Natal
+                                       <br>
+                                       Ingles: Superior
+                          </p>'
+          WorkExperience:
+            name: 'Experiencia Laboral:'
+            comment_html: '<p>
+                              2005-2006 :Hotel Presidente, La Habana, Cuba, (Técnico General Informatico)
+                              2006 – 2013 Universidad de las Ciencias Informaticas,La Habana, Cuba Técnico General Informatico .
+                              Tareas realizadas: Asistencia técnica,Ensamblado y Mantenimiento de las computadoras.
+                              Instalacion de Sistemas Operativos y otros Software.
+                              Asistencia, Coolaboración y Administración de las redes.
+                              Coolaboración para el desarrollo de la 1era pelicula en 3d en Cuba.
+                          </p>'
+
+        Carlos:
+          ability_html: '<p>Desarrollador Web</p>'
+          more_html: '<strong>Ver mas</strong>'
+          ability: 'Desarrollador Web'
+          HigherEducation:
+              name: 'Educación Superior:'
+              comment_html: '<p>
+                                 Universidad de Ciencias Informáticas. La Habana, Cuba.
+                            </p>'
+          language_html:
+              name: 'Idiomas:'
+              comment_html: '<p>
+                                       español: Natal
+                                       <br>
+                                       Ingles: Superior
+                            </p>'
+          WorkExperience:
+              name: 'Experiencia Laboral:'
+              comment_html: '<p> * Facultad de Economía, Universidad de la Habana. La Habana, Cuba (Mar. 2015 - Actualidad)
+                                 <br>
+                                 * Desarrollo y administración del sitio web de la Facultad. Asistencia técnica a las computadoras.
+                                  <br>
+                                 * Administración de la red Wi-Fi.
+                                 <br>
+                                 * Colaboración con los administradores de redes de la Facultad para su mantenimiento.
+                                 </p>'
+
+      Testimonial:
+            h2_html: '<h2 class="margin-bottom-medium">Que dicen <strong class="bold-text">Nuestros</strong> Clientes</h2>'
+
+      Promote_html: '<p class="light-text">Contratenos! Le haremos sonreir :)</p>'
+
+      Portfolio:
+        name_html: '<div class="row margin-bottom-medium wow fadeInUp">
+                          <h2>
+                            Nuestro
+                            <strong class="main-color bold-text">Trabajo :</strong>
+                          </h2>
+                          <div class="line main-bg"></div>
+
+                          <div class="col-md-10 col-md-offset-1">
+                            <div class="subtitle">Observe Nuestros proyectos.</div>
+                          </div>'
+
+        PortfolioFilters_html: '   <li><a href="#" data-filter="*" class="active"><i class="icon-grid"></i></a></li>
+                                    <li><a href="#" data-filter=".print">Marketing & Publicidad </a></li>
+                                    <li><a href="#" data-filter=".icon">Diseños</a></li>
+                                    <li><a href="#" data-filter=".photography">Fotografia</a></li>
+                                    <li><a href="#" data-filter=".web-design">Desarrollo Web</a></li>'
+        Portfolioitem_html: '<h2 class="margin-bottom-small">
+                                            Nuestro
+                                            <strong class="white-color bold-text">Trabajo</strong>
+                                          </h2>
+                                          <div class="button">Ver Proyecto</div>'
+
+      Wearehiring:
+        WeAreHiringName_html: '<h2>Havana Best View <span class="main-color bold-text">Nuestra página de Rentas en Cuba</span></h2>'
+        WeAreHiringComment_html: '<p class="margin-top-medium">Seleccione su destino a cualquier ciudad o polo turístico de Cuba.
+                                            Le ayudaremos a planificar  y organizar su viaje.
+                                            Le brindamos las mejores ofertas en casas particulares para su alojamiento, acompañadas de otros servicios que harán su estancia inolvidable.</p>'
+      SendMessage_html: '<p class="light-text"><span class="bold-text"></span> Puede encontrarnos   <span class="bold-text"> en : </span ></p>'
+
+      footer:
+        footerName_html: '<p class="margin-bottom-medium">Contactenos </p>'
+        footerCopyRight_html: '<p >
+                                    <strong> &copy; Copyright 2016 Skylines Agency - Todos los Derechos Reservados</strong>
+                              </p>'
