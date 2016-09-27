@@ -23,6 +23,8 @@
 //= require imagesloaded.pkgd.min.js
 //= require jquery.easing.min.js
 //= require appear.js
+//= require vendor/modernizr-2.8.3.min.js
+//= require queryloader2.min.js
 
 //= require jquery.circliful.min.js
 //= require owl.carousel.min.js
