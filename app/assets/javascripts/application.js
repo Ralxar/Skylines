@@ -15,24 +15,24 @@
 //*= require turbolinks
 
 
-//= require vendor/jquery-1.11.1.js
-//= require vendor/jquery-migrate-1.2.1.min.js
-//= require twitterFetcher_min.js
-//= require vendor/bootstrap.js
-//= require wow.min.js
-//= require imagesloaded.pkgd.min.js
-//= require jquery.easing.min.js
-//= require appear.js
-//= require vendor/modernizr-2.8.3.min.js
-//= require queryloader2.min.js
+//= require vendor/jquery-1.11.1
+//= require vendor/jquery-migrate-1.2.1.min
+//= require twitterFetcher_min
+//= require vendor/bootstrap
+//= require wow.min
+//= require imagesloaded.pkgd.min
+//= require jquery.easing.min
+//= require appear
+//= require vendor/modernizr-2.8.3.min
+//= require queryloader2.min
 
-//= require jquery.circliful.min.js
-//= require owl.carousel.min.js
-//= require nivo-lightbox.min.js
-//= require isotope.pkgd.min.js
+//= require jquery.circliful.min
+//= require owl.carousel.min
+//= require nivo-lightbox.min
+//= require isotope.pkgd.min
 
-//= require notie.js
-//= require main.js
+//= require notie
+//= require main
 
 
 
