@@ -59,7 +59,6 @@ gem 'rack-pjax', github: 'afcapel/rack-pjax'
 gem 'remotipart', github: 'mshibuya/remotipart'
 
 gem 'devise'
-
 gem 'globalize', github: 'globalize/globalize'
 gem 'rails_admin_globalize_field'
 
