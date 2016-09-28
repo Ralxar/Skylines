@@ -12,7 +12,7 @@
 //
 //=* require jquery
 //*= require jquery_ujs
-//= require turbolinks
+//*= require turbolinks
 
 
 //= require vendor/jquery-1.11.1.js
